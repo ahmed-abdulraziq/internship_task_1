@@ -8,17 +8,6 @@
     --dark: #010A35;
 }
 
-*:not(i, small) {
-    font-family: 'Cairo', sans-serif !important;
-}
-
-html {
-    direction: rtl;
-}
-ol.breadcrumb,
-.testimonial {
-    direction: ltr;
-}
 .back-to-top {
     position: fixed;
     display: none;
@@ -370,6 +359,9 @@ ol.breadcrumb,
 
 
 /*** Testimonial ***/
+.testimonial {
+    direction: ltr;
+}
 .animated.pulse {
     animation-duration: 1.5s;
 }
@@ -501,3 +493,4 @@ ol.breadcrumb,
 .footer .copyright a:hover {
     color: #FFFFFF;
 }
+/* .breadcrumb-item + .breadcrumb-item {padding-right: var(--bs-breadcrumb-item-padding-x);}.breadcrumb-item + .breadcrumb-item::before {float: right;padding-left: var(--bs-breadcrumb-item-padding-x);color: var(--bs-breadcrumb-divider-color);content: var(--bs-breadcrumb-divider, "/") ;} */
